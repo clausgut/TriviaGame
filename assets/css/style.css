@@ -46,7 +46,7 @@ body {
   }
   
   .time {
-    color: #ff5270;
+    color: black;
     font-size: 30px;
   }
   
@@ -89,7 +89,7 @@ body {
   
   .times-up {
     font-size: 36px;
-    color: #ff5270;
+    color: black;
     text-align: center;
   }
   
@@ -100,7 +100,7 @@ body {
   }
   
   .reset-button {
-    background: #ff5270;
+    background: black;
     color: white;
     border: none;
     margin-top: 80px;

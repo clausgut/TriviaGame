@@ -4,18 +4,18 @@ var questions = [
         question: 'What is the seventh and final novel of the Harry Potter series',
         answers: [
             { answer: 'A. Harry Potter and The Deathly Hallows', value: true },
-            { answer: 'B. ', value: false },
-            { answer: 'C. ', value: false },
-            { answer: "D. ", value: false }
+            { answer: 'B. Harry Potter and The Goblet of Fire', value: false },
+            { answer: 'C. Harry Potter and The Prisioner of Azkaban', value: false },
+            { answer: "D. Harry Potter and The Order of The Phoenix", value: false }
         ]
     },
     {
         question: 'Victorian writers Charlotte, Emily, and Anne were sisters sharing what last name?',
         answers: [
             { answer: 'Brontë', value: true },
-            { answer: '', value: false },
-            { answer: '', value: false },
-            { answer: '', value: false }
+            { answer: 'Watts', value: false },
+            { answer: 'Bougatt', value: false },
+            { answer: 'Weller', value: false }
         ]
     },
     {
@@ -40,72 +40,72 @@ var questions = [
         question: 'Thus Spoke Zarathustra: A Book for All and None is a philosophical novel written by which German philosopher?',
         answers: [
             { answer: 'Friedrich Nietzsche', value: true },
-            { answer: '', value: false },
-            { answer: '', value: false },
-            { answer: '', value: false }
+            { answer: 'Jean-Paul Sartre', value: false },
+            { answer: 'Soren Kierkegaard', value: false },
+            { answer: 'Karl Marx', value: false }
         ]
     },
     {
         question: 'Oliver Twist was the second novel published by which English author?',
         answers: [
             { answer: 'Charles Dickens', value: true },
-            { answer: '', value: false },
-            { answer: '', value: false },
-            { answer: '', value: false }
+            { answer: 'George Eliot', value: false },
+            { answer: 'Daniel Defoe', value: false },
+            { answer: 'Anthony Trollope', value: false }
         ]
     },
     {
         question: 'In Frank Baum’s novel The Wonderful Wizard of Oz, on which the film is based, what color are Dorothy’s slippers?',
         answers: [
             { answer: 'Silver', value: true },
-            { answer: '', value: false },
-            { answer: '', value: false },
-            { answer: '', value: false }
+            { answer: 'Gray', value: false },
+            { answer: 'Green', value: false },
+            { answer: 'Gold', value: false }
         ]
     },
     {
         question: 'What is the secret identity of the fictional superhero Batman?',
         answers: [
             { answer: 'Bruce Wayne', value: true },
-            { answer: '', value: false },
-            { answer: '', value: false },
-            { answer: '', value: false }
+            { answer: 'Steve Rogers', value: false },
+            { answer: 'Bruce Banner', value: false },
+            { answer: 'Thor Odinson', value: false }
         ]
     },
     {
         question: 'Who was the author of the children’s fantasy novel The Lion, the Witch and the Wardrobe?',
         answers: [
             { answer: 'C.S. Lewis', value: true },
-            { answer: '', value: false },
-            { answer: '', value: false },
-            { answer: '', value: false }
+            { answer: 'J.K Rowling', value: false },
+            { answer: 'Wayne Thomas Batson', value: false },
+            { answer: 'Lloyd Alexander', value: false }
         ]
     },
     {
         question: 'In the Harry Potter series, what is the name of Harry’s pet owl?',
         answers: [
             { answer: 'Hedwig', value: true },
-            { answer: '', value: false },
-            { answer: '', value: false },
-            { answer: '', value: false }
+            { answer: 'Scabbers', value: false },
+            { answer: 'Crookshanks', value: false },
+            { answer: 'Trevor', value: false }
         ]
     },
     {
         question: 'The novel Don Quixote was written by which famous Spanish novelist?',
         answers: [
             { answer: 'Miguel de Cervantes', value: true },
-            { answer: '', value: false },
-            { answer: '', value: false },
-            { answer: '', value: false }
+            { answer: 'Miguel Unamuno', value: false },
+            { answer: 'Benito Perez Galdos', value: false },
+            { answer: 'Lope de Vega', value: false }
         ]
     },
     {
         question: 'Which American writer wrote the narrative poem “The Raven”?',
         answers: [
             { answer: 'Edgar Allan Poe', value: true },
-            { answer: '', value: false },
-            { answer: '', value: false },
-            { answer: '', value: false }
+            { answer: 'William Golding', value: false },
+            { answer: 'Oscar Wilde', value: false },
+            { answer: 'Emily Dickinson', value: false }
         ]
     }
     
@@ -205,7 +205,7 @@ $(document).ready(function() {
     if (counter < 11) {
       counter++;
       startGame();
-      timer = 20;
+      timer = 30;
       timerHolder();
     } else {
       finishGame();
