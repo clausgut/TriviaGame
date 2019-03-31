@@ -3,17 +3,17 @@ var questions = [
     {
         question: 'What is the seventh and final novel of the Harry Potter series',
         answers: [
-            { answer: 'A. Harry Potter and The Deathly Hallows', value: true },
+            { answer: 'A. ,Harry Potter and The Prisioner of Azkaban', value: false }, 
             { answer: 'B. Harry Potter and The Goblet of Fire', value: false },
-            { answer: 'C. Harry Potter and The Prisioner of Azkaban', value: false },
-            { answer: "D. Harry Potter and The Order of The Phoenix", value: false }
+            { answer: 'C. Harry Potter and The Deathly Hallows', value: true },
+            { answer: 'D. Harry Potter and The Order of The Phoenix', value: false }
         ]
     },
     {
         question: 'Victorian writers Charlotte, Emily, and Anne were sisters sharing what last name?',
         answers: [
+            { answer: 'Watts', value: false},
             { answer: 'Brontë', value: true },
-            { answer: 'Watts', value: false },
             { answer: 'Bougatt', value: false },
             { answer: 'Weller', value: false }
         ]
@@ -21,10 +21,10 @@ var questions = [
     {
         question: 'Released on April 5, 1974, what was Stephen King’s first published novel?',
         answers: [
-            { answer: 'Carrie', value: true },
+            { answer: 'The Stand', value: false},
             { answer: 'IT', value: false },
             { answer: 'Pet Sematary', value: false },
-            { answer: 'The Stand', value: false }
+            { answer: 'Carrie', value: true }
         ]
     },
     {
@@ -39,45 +39,45 @@ var questions = [
     {
         question: 'Thus Spoke Zarathustra: A Book for All and None is a philosophical novel written by which German philosopher?',
         answers: [
-            { answer: 'Friedrich Nietzsche', value: true },
+            { answer: 'Soren Kierkegaard', value: false},
             { answer: 'Jean-Paul Sartre', value: false },
-            { answer: 'Soren Kierkegaard', value: false },
+            { answer: 'Friedrich Nietzsche', value: true },
             { answer: 'Karl Marx', value: false }
         ]
     },
     {
         question: 'Oliver Twist was the second novel published by which English author?',
         answers: [
-            { answer: 'Charles Dickens', value: true },
+            { answer: 'Daniel Defoe', value: false},
             { answer: 'George Eliot', value: false },
-            { answer: 'Daniel Defoe', value: false },
+            { answer: 'Charles Dickens', value: true },
             { answer: 'Anthony Trollope', value: false }
         ]
     },
     {
         question: 'In Frank Baum’s novel The Wonderful Wizard of Oz, on which the film is based, what color are Dorothy’s slippers?',
         answers: [
-            { answer: 'Silver', value: true },
+            { answer: 'Green', value: false},
             { answer: 'Gray', value: false },
-            { answer: 'Green', value: false },
+            { answer: 'Silver', value: true },
             { answer: 'Gold', value: false }
         ]
     },
     {
         question: 'What is the secret identity of the fictional superhero Batman?',
         answers: [
-            { answer: 'Bruce Wayne', value: true },
+            { answer: 'Thor Odinson', value: false},
             { answer: 'Steve Rogers', value: false },
             { answer: 'Bruce Banner', value: false },
-            { answer: 'Thor Odinson', value: false }
+            { answer: 'Bruce Wayne', value: true }
         ]
     },
     {
         question: 'Who was the author of the children’s fantasy novel The Lion, the Witch and the Wardrobe?',
         answers: [
-            { answer: 'C.S. Lewis', value: true },
+            { answer: 'Wayne Thomas Batson', value: false},
             { answer: 'J.K Rowling', value: false },
-            { answer: 'Wayne Thomas Batson', value: false },
+            { answer: 'C.S. Lewis', value: true },
             { answer: 'Lloyd Alexander', value: false }
         ]
     },
@@ -93,9 +93,9 @@ var questions = [
     {
         question: 'The novel Don Quixote was written by which famous Spanish novelist?',
         answers: [
-            { answer: 'Miguel de Cervantes', value: true },
+            { answer: 'Benito Perez Galdos', value: false},
             { answer: 'Miguel Unamuno', value: false },
-            { answer: 'Benito Perez Galdos', value: false },
+            { answer: 'Miguel de Cervantes', value: true },
             { answer: 'Lope de Vega', value: false }
         ]
     },
