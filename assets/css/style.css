@@ -109,6 +109,6 @@ body {
   }
   
   .reset-button:hover {
-    background: #fed501;
+    background: gray;
     border: none;
   }
